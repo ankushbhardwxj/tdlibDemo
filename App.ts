@@ -48,7 +48,7 @@ airgram.use(async (ctx, next) => {
         phoneNumber: contact?.phoneNumber as string,
       };
       let textMsg = "This is a test" as any;
-      if (contactObj.firstName == "Wifey") {
+      if (contactObj.firstName == "somename") {
         airgram.api
           .sendMessage({
             chatId: contactObj.id,
