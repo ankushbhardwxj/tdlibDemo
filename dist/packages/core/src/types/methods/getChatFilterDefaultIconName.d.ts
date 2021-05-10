@@ -1,0 +1,15 @@
+import { ApiRequestOptions, ApiResponse } from '../airgram';
+import { ChatFilterInput } from '../inputs';
+import { TextUnion } from '../outputs';
+export interface GetChatFilterDefaultIconNameParams {
+    filter?: ChatFilterInput;
+}
+/**
+ * Returns default icon name for a filter. Can be called synchronously
+ * @param {Object} params
+ * @param {ChatFilterInput} [params.filter] - Chat filter
+ * @param {ApiRequestOptions} options
+ * @returns {Promise<ApiResponse<GetChatFilterDefaultIconNameParams, TextUnion>>}
+ */
+export declare type getChatFilterDefaultIconName = (params?: GetChatFilterDefaultIconNameParams, options?: ApiRequestOptions) => Promise<ApiResponse<GetChatFilterDefaultIconNameParams, TextUnion>>;
+export declare type getChatFilterDefaultIconNameSync = (params?: GetChatFilterDefaultIconNameParams) => TextUnion;
