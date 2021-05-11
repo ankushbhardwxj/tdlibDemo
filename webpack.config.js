@@ -34,7 +34,7 @@ const plugins = [
   new CopyPlugin([
     {
       from: path.resolve(__dirname, "./node_modules/tdweb/dist/**/*"),
-      to: ".",
+      to: "./",
       flatten: true,
       copyUnmodified: true,
       ignore: ["tdweb.js"],
@@ -46,7 +46,7 @@ const plugins = [
 
 var config = {
   devtool: isProd ? "hidden-source-map" : "source-map",
-  context: path.resolve("."),
+  context: path.resolve("./"),
   node: {},
   entry: {
     app: "./App.ts",
