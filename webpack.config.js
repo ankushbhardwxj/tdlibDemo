@@ -34,7 +34,7 @@ const plugins = [
   new CopyPlugin([
     {
       from: path.resolve(__dirname, "./node_modules/tdweb/dist/**/*"),
-      to: "./",
+      to: ".",
       flatten: true,
       copyUnmodified: true,
       ignore: ["tdweb.js"],
@@ -69,7 +69,6 @@ var config = {
           {
             loader: "awesome-typescript-loader",
             options: {
-              // compile with TypeScript, then transpile with Babel
               useBabel: true,
             },
           },

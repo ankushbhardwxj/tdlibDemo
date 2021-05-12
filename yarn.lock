@@ -60,6 +60,11 @@
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.7.tgz#545158342f949e8fd3bfd813224971ecddc3fac4"
   integrity sha512-0VBprVqfgFD7Ehb2vd8Lh9TG3jP98gvr8rgehQqzztZNI7o8zS8Ad4jyZneKELphpuE212D8J70LnSNQSyO6bQ==
 
+"@types/tdweb@1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@types/tdweb/-/tdweb-1.4.0.tgz#847380e9253524a791a047032ebbc130e08ffe79"
+  integrity sha512-T5w1xYMGALmxzX1J1dgC+4xF8fOQ1mFsOmtnpWITVQWAq0bJHFz5S6XrCCMHlG4jg1LUNzWZSYOTBr/ehrTnag==
+
 "@types/uglify-js@*":
   version "3.13.0"
   resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.13.0.tgz#1cad8df1fb0b143c5aba08de5712ea9d1ff71124"
@@ -4967,16 +4972,6 @@ tapable@^1.0.0, tapable@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
   integrity sha512-4WK/bYZmj8xLr+HUCODHGF1ZFzsYffasLUgEiMBY4fgtltdO6B4WJtlSbPaDTLpYTcGVwM2qLnFTICEcNxs3kA==
-
-tdweb@^1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/tdweb/-/tdweb-1.7.2.tgz#4d05d2238b6c00e69cf7d4e614114c042c0f656a"
-  integrity sha512-xNFG3zxomMW42U6hShaCd53hqAUC0gQMMT0zhbgdsKP1aroE2a/8f77yn3F9yY+N/SmwyYnrGK2FXdhPw4/cVg==
-  dependencies:
-    "@babel/runtime" "^7.4.3"
-    broadcast-channel "^2.1.12"
-    localforage "^1.7.3"
-    uuid "^3.3.2"
 
 tdweb@~1.6.10:
   version "1.6.10"
