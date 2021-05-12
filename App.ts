@@ -9,7 +9,10 @@ import {
 
 const logOutBtn: any = document.getElementById("logout");
 logOutBtn.onclick = () => {
-  console.log("clicked");
+  airgram.api
+    .logOut()
+    .then((r) => console.log(r, "Logged out successfully"))
+    .catch((err) => console.log("Error", err));
 };
 
 const sendMessageBtn: any = document.getElementById("send");
